@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\def\Name{Ran Liao}
+\def\Topic{Metrics and Versions}
+
+\title{\textbf{\Topic}}
+\author{\Name}
+\markboth{Notes on \Topic\ }{Notes on \Topic\ }
+\date{\today}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\date{\today} }
+\lhead{Notes on \Topic\ }
+\rfoot{\thepage}
+
+\textheight=9in
+%\textwidth=6.5in
+\topmargin=-.75in
+%\oddsidemargin=0in
+%\evensidemargin=0in
+ 
+\begin{document}
+\maketitle
+\noindent\makebox[\linewidth]{\rule[8pt]{5in}{0.5pt}}
+
+\section*{Software Metrics}
+
+\begin{itemize}
+
+	\item \textbf{Size}
+
+	In lines of code, or better
+	
+	\item \textbf{Cost}
+	
+	In dollars
+	
+	\item \textbf{Duration}
+	
+	In months
+	
+	\item \textbf{Effort}
+	
+	In person months
+	
+	\item \textbf{Quality}
+	
+	Number of faults detected
+
+\end{itemize}
+
+\section*{Software Versions}
+
+\begin{itemize}
+
+	\item \textbf{Revision}
+
+	A version to fix a fault in the artifact. Perfective and adaptive maintenance also result in revisions.
+	
+	\item \textbf{variation}
+	
+	A variation is a version for a different operating system–hardware. Variations are designed to coexist in parallel
+
+\end{itemize}
+
+\end{document}
