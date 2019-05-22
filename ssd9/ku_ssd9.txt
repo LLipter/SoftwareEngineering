@@ -1,0 +1,1973 @@
+1. What is the goal of software engineering?
+A. The development of software that conforms to international standards
+B. The application of engineering techniques to software production
+C. The replacement of hand coding by automatic programming
+D. The production of fault-free software that satisfies the user's needs and that is delivered on time and within budget
+
+2. Which of the following is true about the history of software development?
+A. The "software depression" began in the 1950s.
+B. The Corps of Engineers helped software developers engineer their products.
+C. A software crisis emerged in the 1970s and has persisted to this day.
+D. Software development was problematic in the beginning, but most of the problems have now been solved.
+
+3. Which of the following accurately characterizes the pace of development of software and hardware technology?
+A. The pace of development is currently about the same in software and hardware technology.
+B. Hardware technology progressed very quickly but now software technology is catching up to it.
+C. Progress in hardware technology is led by improvements in developing software technology.
+D. Hardware technology is outpacing software technology
+
+4. In which of the following phases of software development is fixing a fault normally less costly than in any of the others?
+A. The integration phase
+B. The design phases
+C. The implementation phase
+D. The maintenance phase
+
+5. Which of the following normally happens during the integration phase of software development?
+A. The product is interfaced with other software the client uses.
+B. The product is adapted to the client's hardware.
+C. The entire product is tested.
+D. The individual modules are tested
+
+6. Creating software that is probably buggy to some extent but which is produced at minimal cost and in minimal time is sometimes acceptable when the
+A. software will be used by external customers
+B. code is written in Java
+C. software will be used only once
+D. code is part of a toolkit produc
+
+7. In the context of software engineering, which of the following definitions are true? 
+A failure is the behavior perceived by the user that results from a fault in program code. 
+A fault is an actual problem in program code that is causing a failure. 
+An error is a programmer's mistake that led to a fault in program code.
+A. I only
+B. II and III only
+C. I, II, and III
+D. I and II only
+
+8. Which of the following terms are used to indicate a particular approach or set of techniques for accomplishing one or more specific phases in the software development life cycle? 
+A paradigm   A methodology    A method
+A. I and II only
+B. II and III only
+C. I, II, and III
+D. I and III only
+
+9. . In the context of software engineering, what is a system?
+A. A combination of software products
+B. Any software product that can be used without any other software
+C. Any set of hardware components on which a software product will run
+D. The combination of hardware and software that runs the product
+
+10. Which of the following is true about assessment of software quality?
+A. It is normally directed by the user at all stages.
+B. It is normally the last step before delivery.
+C. Alpha testing is the first step of such assessment.
+D. It should be performed throughout the development process.
+
+11. It has been said that software should be engineered like bridges. Of the following, which best describes the value of this analogy?
+A. Software crashes are never as important as bridge failures, so the analogy is meaningless.
+B. Software design and development should be planned with the same care that is put into designing and building bridges.
+C. Building software is so different from building bridges that the analogy should be totally rejected.
+D. Building software is quite similar to building bridges, so many aspects of software design and development should be closely modeled on bridge design and construction.
+
+12. Which of the following activities takes place during the specification phase of software development?
+A. Production of the requirements document
+B. Creation of test suites
+C. Creation of modular architecture
+D. Production of estimates of overall cost and schedule
+
+13. What is meant by the life cycle of a software product?
+A. The repetitive nature of software testing
+B. The period of time that a software product is in service
+C. The phases that a software product goes through, from idea to obsolescence
+D. The cycling through phases of specification, design, implementation, and testing
+
+14. Over the entire life cycle of a software product, which phase typically takes the most time?
+A. Design
+B. Implementation
+C. Maintenance
+D. Specification
+
+15. In the context of software engineering, what is a product?
+A. Any nontrivial piece of hardware on which software is to be developed
+B. Any document directed to the client that is produced during software development
+C. Any nontrivial piece of software
+D. The output of a life-cycle phase
+
+16. In a software product development context, the developer is the
+A. individual or organization that pays for the product
+B. individual or organization that specifies the software product
+C. individual or organization that creates the software product
+D. audience for the product
+
+17. Which of the following statements is true of requirements during software development?
+A. They must be fully specified before coding.
+B. They should be developed as coding takes place.
+C. Changes in requirements can be easily accommodated after the formal requirements phase.
+D. They are normally changed to match the code already produced.
+
+18. Which of the following are true of the  early days of software development? 
+Programming was dominated by considerations of hardware capabilities. 
+Programming was considered a science. 
+In most programming projects, software development was carefully planned before coding would begin.
+A. III only
+B. II only
+C. I only
+D. II and III only
+
+18. Which of the following are true of the  early days of software development? 
+Programming was dominated by considerations of hardware capabilities. 
+Programming was considered a science. 
+In most programming projects, software development was carefully planned before coding would begin.
+A. III only
+B. II only
+C. I only
+D. II and III only
+
+19. Identifying and discussing customer constraints is the primary activity during which of the following phases of software development?
+A. Design
+B. Requirements analysis
+C. Specification
+D. Maintenance
+
+20. Which of the following is characteristic of internal software development?
+A. The client and the developer are in the same organization.
+B. The client and the user are in independent organizations.
+C. The client and the developer are in independent organizations.Which of the following normally happens during the integration phase of software development
+D. The developer and the user are in independent organizations.
+
+21. Which of the following normally happens during the implementation phase of software development?
+A. Modules are coded and then the modular architecture is revised.
+B. Modules are coded but not tested.
+C. Modules and architecture are documented.
+D. Modules are coded and tested.
+
+22. Which of the following characterizes contract software development?
+A. The client and the user are in independent organizations.
+B. The client and the developer are in the same organization.
+C. The developer and the user are in the same organization.
+D. The client and the developer are in independent organizations.
+
+23. Which of the following participate in a formal review of the specifications document for a software project? 
+The developer's SQA group     The client         The specification team
+A. I and II only
+B. III only
+C. II and III only
+D. I, II, and III
+
+24. Which of the following is an important trade-off that must be kept in mind during the design phase of software development?
+A. Generality vs. duration
+B. Generality vs. complexity
+C. Complexity vs. cost
+D. Duration vs. cost
+
+25. Which of the following are produced during the implementation phase of software development? 
+Code    Module documentation    Testing documentation
+A. I, II, and III
+B. I and II only
+C. I and III only
+D. I only
+
+26. In a software development project, acceptance testing is performed by the
+A. client on the client's hardware with actual data
+B. developer on the client's hardware with actual data
+C. client on the client's hardware with test data
+D. client on the developer's hardware with actual data
+
+27. Regression testing for a software development project is testing to determine whether
+A. any modules inside a changed component still communicate correctly
+B. a component that was unchanged during changes to other components still performs correctly
+C. a module or product hasn't lost code
+D. a problem that instigated an attempted fix has indeed been fixed
+
+28. A build-and-fix model for software development is appropriate in which of the following instances?
+A. The product will have a short lifetime.
+B. The customer is willing to pay the money.
+C. The customer cannot enunciate the requirements.
+D. The product is small and the requirements are simple and well defined.
+
+29. The  waterfall model includes _____; the phases are carried out _____.
+A. all development phases except retirement, sequentially
+B. the full set of development phases, sequentially
+C. the full set of development phases, in parallel
+D. all development phases except retirement, in parallel
+
+30. Which of the following are true of the typical rapid prototype? 
+It is built quickly.   It is robust.    It is built with the expectation that it will be changed.
+A. I, II, and III
+B. I and II only
+C. I only
+D. I and III only
+
+31. Under the incremental model, the danger of too many builds is that
+A. the client will feel free to change the requirements too often
+B. too much time will be spent testing the incremental functionality
+C. the developer will not have enough resources
+D. the product will not be tested thoroughly enough at each release
+
+32. Which of the following are true of the synchronize-and-stabilize model of software development? 
+The implementation is divided into 3 to 4 builds. 
+A single team works on each build.   It has been used by Microsoft.
+A. II only
+B. I only
+C. I and III only
+D. I, II, and III
+
+33. Which of the following activities are included in a cycle of the spiral? 
+Determining objectives, alternatives, constraints 
+Evaluating alternatives, and identifying
+resolving risks 
+Planning the next phase
+A. II and III only
+B. II only
+C. I and II only
+D. I, II, and III
+
+34. Which of the following is true of the unconstrained application of an object-oriented life-cycle model?
+A. It is likely primarily in products implemented in Java.
+B. It will not work for all object-oriented products.
+C. It may lead to undisciplined development.
+D. It focuses excessively on the pre-implementation phases.
+
+35. Frequent integration testing is a feature of the
+A. synchronize-and-stabilize model
+B. waterfall model
+C. spiral model
+D. incremental model
+
+36. For a software development project, what does it mean for specifications to be traceable?
+A. Every statement in the specifications document is linked to a statement in the requirements document.
+B. Each section in the specifications document explicitly describes how this section depends on other sections.
+C. Every statement in the specifications document is well justified and tied to other statements.
+D. Each section in the specifications document is signed and dated by a member of the specification team.
+
+37. Which of the following is true of maintenance in software development?
+A. It is an integral part of the software process.
+B. It typically begins a few years after the original delivery.
+C. It is something to be avoided, wherever and whenever possible.
+D. It is typically performed by the user
+
+38. Which of the following are true of the build-and-fix model of software development? 
+Several iterations of building and reviewing are typically required. 
+Two or three iterations of the product are typically sufficient. 
+The product is typically built without specifications or preceding design.
+A. I only
+B. II only
+C. II and III only
+D. I and III only
+
+39. Until the 1980s, the only widely accepted life-cycle model of software development was the
+A. Build-and-fix model
+B. Rapid prototyping model
+C. Spiral model
+D. Waterfall model
+
+40. Which of the following are true of rapid prototyping? 
+It can serve as a focal point for discussing requirements with the client. 
+It can help shorten product development by allowing the developer to bypass the design phase. 
+It can help mitigate technical risk by uncovering unforeseen problems with the proposed technology.
+A. I, II, and III
+B. III only
+C. I only
+D. I and III only
+
+41. The incremental model may degenerate into the build-and-fix approach under which of the following circumstances?    
+The overall development time becomes too long. 
+There are too many builds.   The requirements change too rapidly.
+A. II and III only
+B. III only
+C. II only
+D. I and II only
+
+42. Which of the following advantages are true of the synchronize-and-stabilize model of software development? 
+Testing occurs early and often. 
+There is always a working version, although it may be incomplete. 
+There is early feedback on design.
+A. I, II, and III
+B. II and III only
+C. I and III only
+D. II only
+
+43. A crucial factor in the success of the spiral model is
+A. ability of software developers to estimate risk accurately
+B. willingness of the client to live with some uncertainty
+C. flexibility of the client's requirements
+D. ability to develop a prototype for each phase
+
+44. One life-cycle model that incorporates features of all other models is the
+A. spiral model
+B. synchronize-and-stabilize model
+C. waterfall model
+D. fountain model
+
+45. Which of the following is true of the requirements document for a software project?
+A. It is a basis for the specification document.
+B. It is a legally binding contract between the client and the developer.
+C. It includes detailed cost estimates.
+D. It will not change through the life cycle of the software product.
+
+46. Which of the following defines traceability of the design document?
+A. Each design choice, except choices of low-level detail, must be described by the relevant data structures and algorithms.
+B. Each design choice, except choices of low-level detail, must be linked to statements in the specifications document, and each statement in the specification document must be reflected in some aspect of the design.
+C. Each design choice, except choices of low-level detail, must be attributed to a particular member of the design team.
+D. Each design choice, except choices of low-level detail, must be linked to statements in the requirements document and each statement in the requirements document must be reflected in some aspect of the design
+
+47. Which of the following kinds of documentation should be produced as part of the implementation phase of software development? 
+The user-reference manual 
+A test document describing all the test cases for implementation 
+A description of all interfaces
+A. I and II only
+B. II and III only
+C. I, II, and III
+D. III only
+
+48. Which of the following is true of alpha and beta testing of a shrink-wrapped software product?
+A. Alpha testing occurs onsite and beta testing occurs offsite.
+B. Both are rare.
+C. Both occur in-house.
+D. Both occur at potential future customers' sites.
+
+49. Which of the following changes are typically carried out during the maintenance phase of the software life cycle?
+Problem fixes        Addition of functionality       Improvements in performance
+A. I and II only
+B. I only
+C. I and IIIonly
+D. I, II, and III
+
+50. Which of the following disadvantages are true of the build-and-fix model of software development? 
+Flaws in specifications, design, and implementation are typically not discovered until the whole thing is complete. 
+Changes to completed modules will typically be much more expensive than changes to other models. 
+The product is typically difficult to understand and maintain.
+A. I, II, and III
+B. I and III only
+C. I and II only
+D. III only
+
+51. A defining characteristic of the waterfall model is that
+A. it supports influence from earlier phases to later phases
+B. implementation and integration usually occur in parallel
+C. implementation cannot begin until specifications are completed
+D. it supports feedback from later phases to earlier phases
+
+52. For a software development project, a good way of making sure that the client's needs are met is to use the
+A. build-and-fix model
+B. rapid prototyping model
+C. synchronize-and-stabilize model
+D. incremental mode
+
+53. What is the most important reason for producing documentation for program code for a software product?
+A. The people who maintain the code need documentation to understand it.
+B. The client will not accept undocumented code.
+C. Code documentation is necessary for design.
+D. Documentation is part of the requirements for the software product.
+
+54. Which of the following are true of one-of-a-kind software product development? 
+Alpha testing takes place in a controlled environment. 
+Beta testing takes place at the developer's site. 
+Alpha testing takes place at the client's site.
+A. I and III only
+B. I only
+C. I and II only
+D. III only
+
+55. Dangers of rapid prototyping include which of the following? 
+The client may come to expect that the final product can be changed as easily as the prototype. 
+Developers may be tempted to reuse the prototype code for the final product. 
+The prototype may not elicit requirements from the client as clearly as necessary.
+A. III only
+B. I and II only
+C. I, II, and III
+D. II and III only
+
+56. Which of the following drawbacks pertain to informal specifications? 
+They may be verbose and hard to follow. 
+It is hard to gauge whether they are complete. 
+Inconsistencies may be difficult to detect.
+A. II and III only
+B. I and II only
+C. II only
+D. I, II, and III
+
+57. Which of the following are true about a DFD? 
+They can be replaced by control flow diagrams in certain applications. 
+The principle of hierarchical partitioning applies to DFDs. 
+The principle of movement from essentials to details applies to DFDs.
+A. I and III only
+B. II and III only
+C. I, II, and III
+D. I and II only
+
+58. The use of dataflow diagrams (DFDs) is a _____ technique.
+A. integration testing
+B. requirements analysis
+C. design
+D. specification
+
+59. State transitions diagrams are used to specify _____ for _____.
+A. control flow, all kinds of software systems
+B. data flow, all kinds of software systems
+C. data flow, real time systems
+D. control flow, real time systems
+
+60. The control information found in a state transition diagram describes
+A. information that the SQA group attaches to specifications for tracing purposes
+B. constraints on the product imposed by the client
+C. specific conditional branching and looping inside individual processes
+D. how different input or input states cause different processes to be activated
+
+61. Which of the following are among the uses of a data dictionary? 
+Run-time debugging of programs 
+Determining display requirements of data 
+Checking consistency between design
+implementation and specifications
+A. III only
+B. II and III only
+C. II only
+D. I, II, and III
+
+62. What type of information is typically stored in the data dictionary? 
+The type of a data item
+The preset values of a data item
+Where and how the data item is used
+A. II and III only
+B. I and II only
+C. I, II, and III
+D. I only
+
+63. The input-output specification for a forms interface to a database includes
+A. the data in the form fields only
+B. the data in the form fields and the commit or cancel action
+C. part of the data in the form fields and the commit or cancel action
+D. the commit or cancel action only
+
+64. Which of the following describes the way a software product should react to incorrect and
+or incomplete input?
+A. It should attempt to detect the illegal input before processing and ask the user to correct input.
+B. It should raise a system error during processing and end the program.
+C. It should raise a system error during processing and wait for user correction.
+D. It should end the program after telling the user why the data is bad.
+
+65. Suppose that a database model for job seekers has three main entities, people, skills, and jobs. Suppose also that the people must have one or more skills, while jobs require zero or more skills. Then the modalities for the relationships HAS_SKILL and REQUIRES_SKILL are, respectively, _____ and _____.
+A. mandatory, optional
+B. optional, optional
+C. mandatory, mandatory
+D. optional, mandatory
+
+66. Entity-relationship modeling is a formal technique oriented to modeling
+A. process logic
+B. data objects
+C. control flow
+D. data flow
+
+67. Which of the following are typically true of informal specifications? 
+They are often written as a set of if-then clauses. 
+They are written in a natural language. 
+They are only used in conjunction with more formal techniques.
+A. I, II, and III
+B. II and III only
+C. II only
+D. I and II only
+
+68. Dataflow diagrams (DFDs) show
+A. how data flows into and out of a software product but not within
+B. how data flows into, out of, and within a software product
+C. the data structures used by a software product
+D. the flow of control in a software product
+
+69. Successive levels of DFDs can be shown using which of the following? 
+External refinement
+In-place refinement
+Hierarchical annotations
+A. I and III only
+B. I, II, and III
+C. II only
+D. I and II only
+
+70. Process logic describes which of the following?
+A. The way that data flows between and within component processes of a system
+B. The way that control flows between and within component processes of a system
+C. The way that a module implements a particular algorithm
+D. The way that a system controls another system
+
+71. Which of the following statements are true about decision trees? 
+They help detect whether all possible combinations of input have been handled. 
+They are good for specifying non-iterative decision procedures. 
+They are generally used for real time systems.
+A. I, II, and III
+B. I and II only
+C. I and III only
+D. II and III only
+
+72. Within the context of a data dictionary, the term modality refers to
+A. whether an item is optional or mandatory
+B. the use of a data item
+C. the type of a data item
+D. the number of values that a data item can take on
+
+73. If a department can have several employees and an employee can work for only one department, then the relationship WORKS_FOR from employee to department is
+A. one-to-many
+B. many-to-many
+C. one-to-one
+D. many-to-one
+
+74. Entity-relationship modeling is usually expressed using an entity-relationship
+A. diagram
+B. logic
+C. narrative
+D. data dictionary
+
+75. When should the process of refining a DFD stop?
+A. When the design team is able to produce algorithms to match the DFDs
+B. When the client and the developer's SQA group approve the existing DFDs
+C. When the graphical representation can no longer show details effectively
+D. When further decomposition would require entering into algorithm design
+
+76. The most important reason for using graphical representations like DFDs is that
+A. they use less paper than descriptive text
+B. software developers like them better than text
+C. clients understand them better than text
+D. they are less ambiguous than descriptive text
+
+77. A data dictionary is primarily used to _____ the data processed by a software product.
+A. find
+B. describe
+C. operate on
+D. store
+
+78. In OOA, which of the following are possible user roles in use case modeling? 
+The end user of the software
+The software maintainer
+Remote Web servers
+A. I and II only
+B. I only
+C. I, II, and III
+D. I and III only
+
+79. In object-oriented analysis, the second step of the class-modeling phase is to
+A. extract candidate objects from the use case scenarios
+B. create an object diagram in UML
+C. create and refine the preliminary class list
+D. specify the classes along with their attributes and methods
+
+80. During the dynamic modeling phase of OOA, how is state transition information most often represented?
+A. In the use case scenarios
+B. Using a graphical notation
+C. In a written specification
+D. As a set of (state, event, predicate, new state) rules
+
+81. In OOA, it is important to model different user roles for which of the following reasons? 
+They may imply different use cases. 
+Different users have different skill levels. 
+The system may be integrated with external software.
+A. I and II only
+B. II and III only
+C. I, II, and III
+D. I and III only
+
+82. In a use case diagram, a system boundary is represented by a labeled
+A. rectangle
+B. arrow
+C. oval
+D. stick figure
+
+83. Abnormal use case scenarios capture events such as which of the following? 
+Network errors
+Unexpected input data
+Software compilation errors
+A. II only
+B. I, II, and III
+C. I and II only
+D. I only
+
+84. Which of the following is (are) true about noun extraction in class modeling? 
+It is a process that identifies the attributes in the class model. 
+It is a textual analysis that identifies candidate objects. 
+It is the first step in class modeling.
+A. II and III only
+B. II only
+C. III only
+D. I and III only
+
+85. In an object diagram, an inheritance relation is represented as a
+A. labeled arrow
+B. line labeled with cardinality information
+C. labeled oval
+D. partitioned rectangle
+
+86. In a state transition diagram, a state is represented as a
+A. labeled arrow
+B. rounded rectangle
+C. solid circle
+D. set of predicates in square brackets
+
+87. Which of the following is true of use case modeling in OOA?
+A. A set of use cases is written for each scenario.
+B. Every use case has only one possible scenario.
+C. A use case is an instance of a scenario.
+D. A scenario is an instance of a use case
+
+88. In object-oriented analysis, the third step of the class-modeling phase is to
+A. specify the classes along with their attributes and methods
+B. create and refine the preliminary class list
+C. extract candidate objects from the use case scenarios
+D. create an object diagram in UML
+
+89. In a use case diagram, the <<uses relationship is used to identify 
+External systems that are invoked by a use case 
+Use cases that are invoked by the end user 
+A primary use case that is invoked by other use cases
+A. II only
+B. I and III only
+C. II and III only
+D. III only
+
+90. Following noun extraction, some candidate classes are left out of the class diagram for which of the following reasons? 
+They fall outside the scope of the software to be built. 
+They correspond to abstract objects. 
+They refer to class variables.
+A. I and II only
+B. I and III only
+C. II and III only
+D. I, II, and III
+
+91. The details regarding class methods and attributes are specified
+A. in the requirements specification
+B. in the entity-relationship diagram
+C. during the design phase
+D. during dynamic modeling
+
+92. Which of the following is (are) true about a state transition diagram? 
+Transitions are represented by rounded rectangles. 
+Transitions are represented by labeled arrows. 
+Each transition is labeled with a set of predicates in square brackets.
+A. II and III only
+B. II only
+C. III only
+D. I and II only
+
+93. Which of the following is (are) true of abnormal use case scenarios in OOA? 
+They specify error messages produced by the software. 
+They capture unexpected events that might happen during a use case. 
+They are important for a comprehensive specification.
+A. I and II only
+B. I and III only
+C. II and III only
+D. I, II, and III
+
+94. The state transition diagram is used to 
+Specify the different events that the software must respond to 
+Identify the actions associated with all of the states the software can be in 
+Specify the methods for each object in the class diagram
+A. II and III only
+B. I and III only
+C. I and II only
+D. II only
+
+95. A use case scenario can be 
+A textual description of a software function or behavior 
+A list of the different users who will use the software 
+A specification of unexpected system behaviors
+A. II and III only
+B. I and III only
+C. I only
+D. I and II only
+
+96. In an object diagram, a relation between two classes is represented as a
+A. labeled oval
+B. line labeled with cardinality information
+C. labeled arrow
+D. partitioned rectangle
+
+97. In a state transition diagram, a start state is represented by a
+A. rounded rectangle
+B. labeled diamond
+C. solid circle
+D. square
+
+98. Which of the following is true about object-oriented design?
+A. The most emphasis is given to the algorithms that relate the structure of the data to the actions operating on the data.
+B. Equal emphasis is given to the structure of the data and the actions operating on the data.
+C. More emphasis is given to the actions operating on the data than to the structure of the data.
+D. More emphasis is given to the structure of the data than to the actions operating on the data.
+
+99. The architectural design of a software system is used during which of the following phases of software construction? 
+Requirements specification
+Detailed design
+System implementation and testing
+A. I, II, and III
+B. I and II only
+C. II and III only
+D. I and III only
+
+100. The products of the detailed design phase include which of the following? 
+Module algorithms
+Code for Java classes
+Module interfaces
+A. I only
+B. I, II, and III
+C. II and III only
+D. I and III only
+
+101. Some CASE tools are useful for design testing because they
+A. allow graphical analysis of system modules
+B. support graphical display of class diagrams
+C. allow the user to enter information about modular interfaces
+D. cross reference specifications and design elements
+
+102. Interaction diagrams include which of the following? 
+Collaboration diagrams
+Entity-relationship diagrams
+Sequence diagrams
+A. I and III only
+B. I, II, and III
+C. II and III only
+D. I and II only
+
+103. In a collaboration diagram, coupling between objects is represented by
+A. the text of a message passed between objects
+B. a directed line (arrow) between objects
+C. a solid line between objects
+D. a dotted line between objects
+
+104. A detailed class diagram is created from the preliminary class diagram by adding which of the following?
+A. Details about inner classes
+B. Private methods
+C. Information hiding
+D. Details about class methods
+
+105. In a client-object diagram, a relation is represented as
+A. an unlabeled, directed line (arrow) from client to object
+B. an unlabeled, directed line (arrow) from object to client
+C. a labeled rectangle
+D. an unlabeled rectangle
+
+106. A skeletal Java class file can be used to specify which of the following? 
+Method signatures
+Detailed design information
+Detailed class diagrams
+A. I and II only
+B. I and III only
+C. I, II, and III
+D. II and III only
+
+107. How are skeletal class files useful for design specification?
+A. They can be linked to libraries.
+B. They are conveniently organized for the programmer.
+C. They can be compiled.
+D. Complex methods can be described using javadoc.
+
+108. During a design review, which of the following issues concerning the detailed design is (are) considered? 
+Are all the accessor methods defined? 
+Does the architecture support a low degree of coupling? 
+Are the algorithm descriptions complete and unambiguous?
+A. I only
+B. I and II only
+C. III only
+D. I, II, and III
+
+109. The goals of design testing include which of the following? 
+Compiling code for Java classes 
+Analyzing data flow diagrams 
+Verifying that a design incorporates system requirements
+A. II and III only
+B. I, II, and III only
+C. III only
+D. I and III only
+
+110. Sequence diagrams include representations of which of the following? 
+The user and external agents 
+All objects in the system 
+Messages passed between objects
+A. II and III only
+B. I and III only
+C. I and II only
+D. I, II, and III
+
+111. For an object calling another object, a message is associated with which of the objects in responsibility-driven design? 
+The calling object
+The called object
+A. I only
+B. none
+C. I and II
+D. II only
+
+112. Which of the following is true where a client-object diagram contains more than one top-level client object? 
+It may be necessary to add a single top-level client object 
+The implementation program may have multiple entry points 
+The implementation program may not be portable to Java
+A. II and III only
+B. I only
+C. I and III only
+D. I, II, and III
+
+113. A good architectural design of a software system promotes which of the following? 
+Understandability 
+Optimal run-time performance 
+Faster debugging
+A. II and III only
+B. I and III only
+C. I and II only
+D. I, II, and III
+
+114. Data flow analysis includes which of the following? 
+Creating a data flow diagram 
+Finding the point of highest abstraction of the input 
+Identifying the analysis and dispatch modules
+A. I and II only
+B. I only
+C. II and III only
+D. I and III only
+
+115. Collaboration diagrams emphasize
+A. coupling between objects
+B. the chronological ordering of messages
+C. the boundary between external agents and system objects
+D. client-object relations
+
+116. A client object is one that
+A. receives a message from another object
+B. is not invoked by any other objects
+C. sends a message to another object
+D. appears in a client-object diagram
+
+117. In data-oriented design, the architecture of the system is based on which of the following? 
+A data flow diagram
+The structure of the data
+The actions operating on the data
+A. III only
+B. I and II only
+C. II only
+D. II and III onl
+
+118. The languages Fortran, Pascal, COBOL, and C++ are examples of which generation of programming languages?
+A. fourth
+B. second
+C. first
+D. third
+
+119. Which of the following is true about self-documenting code?
+A. It does not exist.
+B. It is the goal of every programmer.
+C. It exists but is extremely rare.
+D. It is very common
+
+120. Branch coverage testing consists of ensuring that
+A. each branch has been tested for all possible values of relevant input
+B. each statement controlled by a branch has been executed at least once
+C. each branch in the code has been executed at least once
+D. each variable tested in the branch has a value
+
+121. In nonexecution-based testing of software, the inspections team consists of
+A. three to six people, including representatives from the current and future phases
+B. three people, including representatives from the current and future phases
+C. six people, including representatives from the current phase and the client
+D. four people, including a moderator, a designer, an implementer, and a tester
+
+122. In the Cleanroom technique, execution-based testing is
+A. used before and after nonexecution-based testing
+B. used only after nonexecution-based testing
+C. used before nonexecution-based testing
+D. not use
+
+123. The decisions that management will have to make regarding testing include which of the following? 
+The kind of testing                 The amount and extent 
+When and whether the results of testing are sufficient to call for recoding
+A. I and II only
+B. I, II, and III
+C. II and III only
+D. I only
+
+124. Responsibility-driven programming is better than defensive programming for which of the following reasons? 
+It is easier to estimate the number of remaining faults in a product. 
+It isolates in one place all the checks for the appropriateness of input for a given call. 
+It is easier to verify the code using black-box techniques.
+A. II only
+B. I and II only
+C. II and III only
+D. I, II, and III
+
+125. Installation testing is performed during which of the following kinds of testing? 
+Acceptance testing
+Product testing
+Module testing
+A. II only
+B. II and III only
+C. I and II only
+D. I only
+
+126. An online interface checker is an example of a
+A. CASE workbench
+B. coding tool
+C. build tool
+D. version management tool
+
+127. Application frameworks and code frameworks are ways of reusing
+A. code
+B. design
+C. requirements
+D. testing
+
+128. In choosing a language for the final product, which of the following factors should be considered? 
+Whether the language supports coincidental cohesion 
+Whether the language supports informational cohesion 
+Whether the language is object-oriented
+A. II and III only
+B. I, II, and III
+C. I and II only
+D. III only
+
+129. Nested if statements can be simplified by
+A. using Boolean combinations
+B. improving code layout
+C. using more meaningful variable names
+D. using other control structures
+
+130. Consider implementing an algorithm for division and testing code with the values 2, 1, 0, -1, and -2. Which of the following techniques is (are) being applied? 
+Statement coverage
+Boundary value testing
+Equivalence testing
+A. I only
+B. II only
+C. III only
+D. II and III only
+
+131. The primary difference between code inspections and code walkthroughs is that
+A. walkthroughs are more formal and have more steps
+B. walkthroughs are more formal but have fewer steps
+C. inspections are more formal but have fewer steps
+D. inspections are more formal and have more steps
+
+132. Reliability analysis is used for which of the following purposes?
+A. It is used to help determine how long to test in order to guarantee that the product's fault rate satisfies specification.
+B. It is used to help determine how many test cases should be used for a module.
+C. It is used to compute the order in which test cases should be tried for a module.
+D. It is used to compute the number of faults in a module based on its complexity.
+
+133. Which of the following statements is (are) true of testing techniques? 
+All techniques have some advantages and disadvantages. 
+All techniques are more or less equally effective at finding interface faults. 
+All techniques are more or less equally cost-effective.
+A. I and III only
+B. I and II only
+C. I, II, and III
+D. II and III only
+
+134. The strategies of top-down, bottom-up, and sandwich integration are suited to
+A. graphical-interface testing better than to non-graphical-interface testing
+B. object-oriented systems but not to non-object-oriented systems
+C. both object-oriented and non-object-oriented systems
+D. non-object-oriented systems but not to object-oriented systems
+
+135. In general, reliability testing of a software product checks which of the following? 
+The frequency of failures
+The severity of failures
+The location of failures
+A. I and II only
+B. I only
+C. II and III only
+D. I, II, and III
+
+136. Which of the following kinds of integration is associated with an environment that supports a specific software process?
+A. Team process integration
+B. User process integration
+C. Process integration
+D. Management process integration
+
+137. The primary purpose of careful code layout is to
+A. please managers
+B. improve readability
+C. conform to standards
+D. help the SQA team
+
+138. Structural testing is _____ and structured testing is _____.
+A. black-box testing, white-box testing
+B. glass-box testing, black-box testing
+C. black-box testing, black-box testing
+D. white-box testing, white-box testing
+
+139. nexecution-based testing techniques can be applied to which of the following? 
+Specifications
+Design documents
+Code modules
+A. I and II only
+B. II and III only
+C. I, II, and III
+D. III only
+
+140. In the context of software development, a correctness proof is
+A. a logical deduction of the output of a piece of code for specific argument values
+B. a mathematical proof that some code satisfies its specifications
+C. an outdated method of testing code
+D. the formal proof of the correctness of a theorem
+
+141. The decisions that management will have to make regarding testing include which of the following? 
+The kind of testing
+The amount and extent
+When and whether the results of testing are sufficient to call for recoding
+A. II and III only
+B. I only
+C. I and II only
+D. I, II, and III
+
+142. Which of the following is true when a sandwich integration strategy is applied to integration testing? 
+Logic modules are implemented and integrated top-down. 
+Operations modules are implemented and integrated bottom-up. 
+Integration between the two groups is performed throughout the process.
+A. I and III only
+B. II and III only
+C. I, II, and III
+D. I and II only
+
+143. Installation testing of a software product checks to verify that it
+A. can be installed on the client's hardware
+B. works with the developer's other software
+C. works on the client's hardware
+D. works with the client's other software
+
+144. Programming-in-the-large refers to which of the following?
+A. Software production by a large team, either at the module level or at the code level
+B. Software development in general
+C. Collaborative software development across multiple organizations
+D. Software development at the module level, including architectural design
+
+145. It is possible to reuse components from _____ phases of the software process, but _____ reuse is most common.
+A. the integration and maintenance, documentation
+B. the requirements and specification, specifications
+C. all, module
+D. the design and implementation, code
+
+146. Assembly languages are also called _____ and they_____.
+A. first-generation languages, consist of zeros and ones
+B. second-generation languages, reflect the architecture of the processor
+C. interpreted languages, are good for prototyping
+D. third-generation languages, provide abstract flow of control structures
+
+147. If a decision by a programmer results in a violation of coding standards, the programmer should
+A. check with the manager to determine whether the code can stand as is
+B. keep the code in violation and hide the fact
+C. rewrite the code to meet standards
+D. argue that the standards do not apply to every kind of code
+
+148. The ultimate responsibility for verifying the correctness of modules rests with the
+A. programmer of the module
+B. implementation team
+C. end users
+D. developer's SQA group
+
+149. In nonexecution-based testing of software, an important product of the inspections process is the
+A. checklist of faults
+B. number of faults found by each team member
+C. number of faults found, ranked by severity
+D. number of lines of code containing faults
+
+150. Which of the following statements is (are) true of correctness proofs? 
+They are suitable for all products. 
+Their cost-effectiveness depends on the product. 
+They require skills that only logicians have.
+A. II only
+B. I only
+C. I and III only
+D. II and III only
+
+151. h of the following are disadvantages of top-down integration testing of software? 
+Operational modules may not be adequately tested. 
+It will make the testing process more complex. 
+It promotes responsibility-driven design.
+A. I, II, and III
+B. I only
+C. III only
+D. II and III only
+
+152. h of the following is (are) true about a build tool for software development? 
+It should be used in conjunction with a configuration management tool. 
+It helps compile, link, and execute a complex software product during testing. 
+It helps in selecting and assembling the correct version of code modules.
+A. I and III only
+B. I only
+C. II only
+D. III only
+
+153. main criterion for choosing a language for rapid prototyping should be
+A. how quickly development can be accomplished with that language
+B. how well known the language is
+C. whether the language is fourth-generation
+D. whether the language is interpreted
+
+154. he following coding style practices, which best facilitates future maintenance?
+A. Documenting every line of code
+B. Making certain that procedures are shorter than ten lines
+C. Making variable names meaningful to persons other than the code's author
+D. Using named constants wherever possible
+
+155. time limit on an effective walkthrough or code-review session is
+A. one hour
+B. two hours
+C. three hours
+D. four hours
+
+156. Which of the following techniques create fault statistics? 
+Nonexecution-based testing techniques 
+Glass-box-based testing techniques 
+Black-box testing techniques
+A. I only
+B. II and III only
+C. II only
+D. I, II, and II
+
+157. responsibility-driven programming
+A. assertions are placed in the called module
+B. both calling and called modules check for the appropriateness of an input to the called module
+C. the called module checks input to ensure that it has not been called with inappropriate input
+D. the calling module checks input to the called module to ensure that the input is appropriate
+
+158. During product testing, which of the following techniques should be used to verify that the product satisfies its output specifications? 
+Glass-box techniques 
+Black-box techniques 
+Nonexecution-based techniques
+A. III only
+B. I, II, and III
+C. I and II
+D. II only
+
+159. A front-end CASE tool (upperCASE tool) is one that assists with which phases of software development?
+A. Requirements and specification
+B. Implementation, integration, and maintenance
+C. Design, implementation, and integration
+D. Requirements, specification, and design
+
+160. In which of the following places should the interface to a module be documented? 
+The testing document 
+A separate document containing general documentation for the system 
+The prologue of each module
+A. II only
+B. I, II, and III
+C. III only
+D. II and III only
+
+161. Which of the following should be present in a module prologue? 
+Module input
+output 
+The names of files accessed and changed by the module 
+The name of the file or files containing test data for the module
+A. I and II only
+B. I only
+C. I, II, and III
+D. II and III only
+
+162. User training materials should cover which of the following?
+A. All major functionalities of the system in complete detail for each topic
+B. A few common scenarios of use, introduced in order of complexity
+C. The most commonly used functionality of the system
+D. All major functionalities of the system with a gradual introduction of detail
+
+163. Instructions for both the installation of the product and procedures for initialization are included in which of the following?
+A. User's reference manual
+B. Installer/administrator documentation
+C. Maintainer's manual
+D. User training manual
+
+164. A complete and detailed description of the functionality available in a software product is found in the
+A. User reference manual
+B. Maintainer's documentation
+C. User quick reference
+D. User training materials
+
+165. Which of the following typically takes the responsibility of emphasizing the priority of allocating proper resources to the documentation of a software product?
+A. The developer
+B. The client
+C. The programmers
+D. The maintainers
+
+166. thorough documentation process emphasizes that 
+Documentation will be produced throughout the life cycle and kept up to date 
+Documents for each phase will be completed by people who participated in that phase 
+Documentation will lag behind the product by no more than one version
+A. II only
+B. I, II, and III
+C. I and III only
+D. I and II only
+
+167. Which of the following is (are) true about documentation standards for software products? 
+They should be established before or during the planning process. 
+They should be incorporated into the software project management plan. 
+They should be approved by the client.
+A. I, II, and III
+B. II and III only
+C. I and II only
+D. I only
+
+168. To make the process of developing and maintaining documentation for a software product as efficient as possible, the developer's organization should use which of the following? 
+CASE tools 
+Stringent penalties for poor documentation 
+Documentation standards
+A. I and III only
+B. II and III only
+C. I, II, and III
+D. I onl
+
+169. Which of the following should be present in a module prologue? 
+Error-handling capabilities 
+A list of modifications made, by whom, on what date, and approved by whom 
+Known faults of the module
+A. II and III only
+B. II only
+C. I and II only
+D. I, II, and III
+
+170. Which of the following is (are) part of inline documentation? 
+Comments explaining procedures, functions, and methods 
+Documentation of data flow among modules 
+Documentation of variables
+A. II only
+B. I and III only
+C. I only
+D. I, II, and III
+
+171. Which of the following is (are) among the possible contents of the user quick reference for a software product? 
+Brief descriptions of commands and arguments 
+A list of the most common operations by topic 
+Pointers to the user's reference manual
+A. I only
+B. II only
+C. I and III only
+D. I, II, and III
+
+172. Which of the following are possible documents that could be included in the maintainer's documentation? 
+Retirement documents
+Specifications and design documents
+Testing documents
+A. II only
+B. I and III only
+C. II and III only
+D. I, II, and III
+
+173. Which of the following are valid approaches when creating training materials for the first-time or novice end users of a software product? 
+Discussing the use of the system in general 
+Presenting different scenarios of use 
+Giving examples of uses and problems with solutions
+A. I and II only
+B. II and III only
+C. II only
+D. I and III only
+
+174. The reasons for documenting software development as early and completely as possible include which of the following? 
+If postponed, the documentation may never be completed. 
+If postponed, the staff who worked on earlier phases may no longer be available. 
+If postponed, any design changes made during implementation will be difficult to document.
+A. I and III only
+B. II only
+C. I and II only
+D. I, II, and III
+
+175. Which of the following is (are) true of maintaining uniformity in documentation for a software product? 
+It helps the management of the developer's organization track progress. 
+It aids the SQA group in performing their job. 
+It helps nonexpert computer users understand the software.
+A. I, II, and III
+B. II and III only
+C. III only
+D. II only
+
+176. CASE tools can help the documentation process for a software product in which of the following ways? 
+By reducing the drudgery associated with documentation upkeep 
+By making the documentation available online for searching and changing 
+By centralizing and distributing changes to documentation
+A. I only
+B. II only
+C. I, II, and III
+D. II and III only
+
+177. The documentation that must be prepared before delivering a software product to a client includes which of the following? 
+Maintainer's documentation 
+Installer
+administrator documentation 
+Future enhancements documentation
+A. I, II, and III
+B. I and II only
+C. I only
+D. II only
+
+178. Software maintenance is difficult for which of the following reasons?
+A. It is poorly paid and is not well regarded by management.
+B. It is an activity that is looked down upon by other programmers.
+C. No matter how good the documentation is, finding faults is difficult.
+D. It incorporates aspects of all other phases of development.
+
+179. Maintenance is normally required in
+A. incompletely specified software products
+B. imperfectly designed software products
+C. almost all software products
+D. badly implemented software products
+
+180. Which of the following kinds of changes to a software product characterizes maintenance of the product?
+A. Changes made after it has passed the acceptance test
+B. Changes made to improve its performance on the job
+C. Changes made to fix remaining faults
+D. Changes made to extend its functionality
+
+181. A way of minimizing the impact of a software fault that is too expensive or time consuming to fix is to use
+A. a workaround
+B. workflow management
+C. regression priority
+D. fault prioritization
+
+182. How should nonrepeatable faults that occur sporadically be handled?
+A. They should not be reported until there is test data available for analysis.
+B. They should be reported only if at least three different users encounter the fault.
+C. They should be reported only if they are serious enough to affect user productivity.
+D. They should be reported even without test data.
+
+183. Which of the following statements is (are) applicable to a situation where the client keeps wanting changes made after the product is delivered? 
+Satisfaction of the client is very important. 
+The developer can inform the client about the cost of repeated maintenance. 
+The developer may need to have the product rewritten from scratch when maintenance becomes hazardous.
+A. II and III only
+B. I, II, and III
+C. II only
+D. I only
+
+184. The fragile-class problem comes about because of which of the following? 
+Encapsulation
+Polymorphism
+Inheritance
+A. I, II, and III
+B. III only
+C. II only
+D. I and III only
+
+185. Two properties of object-oriented software that make it easier to maintain are
+A. information hiding and inheritance
+B. encapsulation and information hiding
+C. encapsulation and inheritance
+D. polymorphism and dynamic binding
+
+186. The metrics that are useful during the maintenance phase of software development include which of the following? 
+Metrics used during previous phases 
+Metrics that track fault reports
+A. I only
+B. I and II
+C. none
+D. II only
+
+187. By assigning less skilled programmers to maintenance, management is
+A. usually responding to the client's request to minimize the cost of maintenance
+B. making a well-thought-out judgment concerning distribution of staff
+C. perpetuating the bad reputation of maintenance programming
+D. making an economically sound decision
+
+188. Restructuring is the process of
+A. improving the product without changing its functionality
+B. changing the architectural design while reusing the implemented code
+C. developing the product from its specifications to implementation
+D. redoing the detailed design but not the architectural design
+
+189. Inheritance in object-oriented systems makes maintenance
+A. harder because the type of values may change at run time
+B. harder because definitions may be spread out all over the code
+C. easier because code is reused and does not need retesting
+D. easier because code is localized
+
+190. Useful metrics for tracking fault reports include which of the following? 
+A classification of faults reported 
+The status of fault reports 
+The number of faults reported during specific periods and in total
+A. III only
+B. I and III only
+C. I and II only
+D. I, II, and III
+
+191. Which of the following is (are) true about perfective maintenance of a software product? 
+It enhances the product with respect to performance and functionality. 
+It is made necessary by changing conditions in the client's environment.
+A. I and II
+B. none
+C. I only
+D. II only
+
+192. Which of the following is (are) true of maintenance of a software product? 
+It is perceived as a low-glamour activity by programmers. 
+It is often paid less than is programming from scratch. 
+It is very difficult because software is so often documented poorly.
+A. I and II only
+B. III only
+C. I and III only
+D. I, II, and III
+
+193. Which of the following are types of maintenance? 
+Corrective maintenance 
+Preventive maintenance 
+Adaptive maintenance
+A. I and III only
+B. I, II, and III
+C. I and II only
+D. III only
+
+194. Problem reporting systems can help manage the workflow of software maintenance by which of the following? 
+Providing a central repository of faults and information about them 
+Storing test cases for scheduled fault fixes 
+Making it impossible for faults to be forgotten
+A. I and III only
+B. I, II, and III
+C. I and II only
+D. III only
+
+195. A software fault that occurs rarely, has low user productivity impact, and is expensive to fix should
+A. be given low priority but eventually be fixed
+B. be fixed only when there is enough money in the budget to cover fixing such faults
+C. be fixed only if the client makes a special request
+D. not be fixed
+
+196. After a product has undergone changes during maintenance, the process of testing that the changes have not negatively impacted other functionality is called
+A. maintenance testing
+B. acceptance testing
+C. regression testing
+D. change testing
+
+197. Which of the following is (are) true about a product when it is undergoing updates during maintenance? 
+The previous version should be frozen as a baseline. 
+The revisions should be treated as branches from the baseline. 
+The modules can be released back into the pool before rigorous testing.
+A. I, II, and III
+B. I and II only
+C. I only
+D. III only
+
+198. Criteria used for prioritizing software faults include which of the following? 
+Frequency of occurrence 
+Estimated effort to diagnose and fix 
+Impact on user productivity
+A. II only
+B. I and II only
+C. I, II, and III
+D. II and III only
+
+199. Which of the following is true about maintenance for object-oriented software?
+A. It is the same as maintenance for non-object-oriented software.
+B. It has its own challenges, even though it is easier in some ways than maintenance for non-object-oriented software.
+C. It is always easier than maintenance for non-objected-oriented software.
+D. It is generally more difficult than maintenance for non-object-oriented software.
+
+200. Maintenance activities that remove residual faults in the software product are called
+A. perfective maintenance
+B. adaptive maintenance
+C. after-the-fact maintenance
+D. corrective maintenance
+
+201. Which of the following activities may be performed during maintenance? 
+Determining whether the fault reported is really a software problem 
+Locating the source of the fault in the code and fixing it 
+Testing the fixes and updating the documentation
+A. II and III only
+B. I, II, and III
+C. I and II only
+D. II only
+
+202. When the only documentation available for a software code is the code itself, the process of reconstructing the design and specifications is called
+A. reengineering
+B. reverse engineering
+C. backward engineering
+D. forward engineering
+
+203. The primary role of the data flow diagram is to
+A. identify the data objects used by the system
+B. identify the actions that will affect the system's data
+C. determine the sequence of the system's actions
+D. determine the structure of the system's actions
+
+204. In object-oriented analysis, the first step of the class-modeling phase is to
+A. extract candidate objects from the use case scenarios
+B. create an object diagram in UML
+C. create and refine the preliminary class list
+D. specify the classes along with their attributes and methods
+
+224. Impediments to functional testing of even a moderate size program include which of the following? 
+Functions are usually too numerous for systematic testing. 
+Functions are usually intertwined and hard to test individually. 
+Functionality often spans across module boundaries.
+A. I only
+B. III only
+C. I, II, and III
+D. II and III only
+
+329. The languages Fortran, Pascal, COBOL, and C++ are examples of which generation of programming languages?
+A. third
+B. first
+C. second
+D. fourth
+
+330. Constants should be used
+A. for values that will never change
+B. as much as possible
+C. for values that will probably not change
+D. for values that will seldom change
+
+331. Impediments to structural testing in even a moderate size program include which of the following? 
+It is not possible to test each path 
+It is not possible to test each choice point with the data that will show a fault
+A. II only
+B. I only
+C. none
+D. I and II
+
+332. In nonexecution-based testing of software, the inspections team includes which of the following roles? 
+The moderator
+The client representative
+The recorder
+A. I and II only
+B. I, II, and III
+C. I and III only
+D. II and III only
+
+333. The primary use of complexity metrics is to determine which modules
+A. need attention
+B. to recode in order to decrease complexity
+C. have more faults
+D. should be tested by the SQA group
+
+334. Which of the following statements is (are) true of testing techniques? 
+All techniques have some advantages and disadvantages. 
+All techniques are more or less equally effective at finding interface faults. 
+All techniques are more or less equally cost-effective.
+A. I and II only
+B. I, II, and III
+C. I and III only
+D. II and III only
+
+335. Which of the following are advantages of bottom-up integration? 
+It highlights design and coding faults early on. 
+It helps isolate faults to the upper modules. 
+It results in thorough testing of the operations models.
+A. II and III only
+B. I and II only
+C. III only
+D. I, II, and III
+
+336. Utility of a software product includes which of the following? 
+The ease with which a product can be used 
+The usefulness of the product 
+The cost-effectiveness of the product relative to competing products
+A. I, II, and III
+B. II and III only
+C. I and II only
+D. II only
+
+337. Baselines and access control systems are used for what purpose?
+A. To maintain different versions of the system
+B. To keep management informed of the progress on various components of the product
+C. To help integration testing be performed smoothly and quickly
+D. To keep programmers from changing the same module(s) simultaneously
+
+338. In contract software, the issues that might limit reuse of code include which of the following? 
+Legal ownership of the code 
+The higher cost of planning for development
+A. none
+B. I and II
+C. II only
+D. I only
+
+339. Rapid prototyping should be used for what purpose?
+A. To transition into the final product with a minimum of recoding
+B. As a substitute for design documents
+C. As a substitute for specifications
+D. Eliciting requirements from the user
+
+340. An open modular architecture for software is a requirement of the
+A. incremental model
+B. synchronize-and-stabilize model
+C. fountain model
+D. waterfall model
+
+341. Which of the following are updated after enhancements have been added to a software product?
+Documentation for module interfacing 
+Documentation of test cases 
+The requirements, specification, and design documents
+A. III only
+B. I, II, and III
+C. I and II only
+D. II and III only
+
+342. In object-oriented analysis, which of the following are given emphasis? 
+Data
+Actions
+A. I and II
+B. none
+C. II only
+D. I only
+
+343. In an object diagram, a class is represented as a
+A. labeled oval
+B. partitioned rectangle
+C. labeled arrow
+D. line labeled with cardinality information
+
+344. Which of the following is true of Dynamic Modeling in OOA?
+A. It is purely action oriented.
+B. It is purely data oriented.
+C. It is both action and data oriented.
+D. It is neither action nor data oriented.
+
+345. Which of the following is the term for reuse of code made possible because someone realized that the code of a previously developed component could be reused?
+A. Designed reuse
+B. Accidental reuse
+C. Purposeful reuse
+D. Managed reuse
+
+346. Which of the following is true when an inspection finds that 5 percent or more of a module must be reworked?
+A. The module is discarded.
+B. The programmer responsible is reprimanded.
+C. The inspection team must reinspect the module fully after it has been reworked.
+D. Similar modules are reinspected.
+
+347. In a software testing activity, a driver refers to which of the following?
+A. A module that has yet to be coded but passes the appropriate values to the module being tested
+B. A special kind of module in an application
+C. The module being tested
+D. A module that either returns the information that was called or returns appropriate hard-coded values for given input
+
+348. Product testing for contract software includes which of the following? 
+Reliability testing 
+Robustness testing 
+Utility testing
+A. II and III only
+B. I only
+C. I, II, and III
+D. I and II only
+
+349. If a programmer violates coding standards, the manager should
+A. force the programmer to observe them
+B. respond in a way that balances the benefit of the standards with the burden they put on the programmer
+C. discipline the programmer
+D. have someone rewrite the code so it meets standards
+
+350. It may be worth redesigning and recoding a module from scratch under which of the following conditions?
+A. The inspection team members disagree on the severity of the faults.
+B. The programmer who coded the module thinks so.
+C. The inspection team members are dissatisfied with the quality of the code.
+D. Many more faults are found in that module than in any other module.
+
+351. The manager of the SQA group should run integration testing because 
+programmers may have seen inconsistent copies of the design documentation 
+programmers may be unwilling to take blame for inconsistencies between modules 
+the SQA group has the most to lose if testing is badly performed
+A. I and II only
+B. I, II, and III
+C. II and III only
+D. III only
+
+352. In object-oriented systems
+A. inheritance and polymorphism make reused code easy to understand
+B. small self-contained objects facilitate reuse, but other problems complicate it
+C. small self-contained objects guarantee a high degree of reuse
+D. code reuse is impossible
+
+353. Black-box testing techniques are so named because testing is performed
+A. by carefully examining the code for all external interfaces for the module
+B. without examining any code
+C. by wrapping the module to be tested in special black-box code
+D. by carefully examining all critical parts of 
+
+the code
+
+354. Which of the following is (are) considered a validation activity? 
+Product testing 
+Acceptance testing 
+Documentation testing
+A. I only
+B. III only
+C. I, II, and III
+D. II only
+
+355. Management integration refers to a CASE environment that supports which of the following? 
+Management of the software development process 
+Good communication at management-level meetings
+A. I and II
+B. none
+C. I only
+D. II only
+
+356. In object-oriented analysis, the second step of the class-modeling phase is to
+A. specify the classes along with their attributes and methods
+B. create and refine the preliminary class list
+C. extract candidate objects from the use case scenarios
+D. create an object diagram in UML
+
+357. Adaptive maintenance occurs in response to which of the following?
+A. Changes in design brought about by changes in requirements during development
+B. Changes in the client's computing facilities and environment
+C. Novel and unpredicted requirements of the client's organization
+D. Critiques levied by users during acceptance testing
+
+358. The languages Fortran, Pascal, COBOL, and C++ are examples of which generation of programming languages?
+A. third
+B. first
+C. second
+D. fourth
+
+359. Constants should be used
+A. for values that will never change
+B. as much as possible
+C. for values that will probably not change
+D. for values that will seldom change
+
+360. Impediments to structural testing in even a moderate size program include which of the following? 
+It is not possible to test each path 
+It is not possible to test each choice point with the data that will show a fault
+A. II only
+B. I only
+C. none
+D. I and II
+
+361. In nonexecution-based testing of software, the inspections team includes which of the following roles? 
+The moderator 
+The client representative 
+The recorder
+A. I and II only
+B. I, II, and III
+C. I and III only
+D. II and III only
+
+362. The primary use of complexity metrics is to determine which modules
+A. need attention
+B. to recode in order to decrease complexity
+C. have more faults
+D. should be tested by the SQA group
+
+363. Which of the following statements is (are) true of testing techniques? 
+All techniques have some advantages and disadvantages. 
+All techniques are more or less equally effective at finding interface faults. 
+All techniques are more or less equally cost-effective.
+A. I and II only
+B. I, II, and III
+C. I and III only
+D. II andv III only
+
+364. Which of the following are advantages of bottom-up integration? 
+It highlights design and coding faults early on. 
+It helps isolate faults to the upper modules. 
+It results in thorough testing of the operations models.
+A. II and III only
+B. I and II only
+C. III only
+D. I, II, and III
+
+365. Utility of a software product includes which of the following? 
+The ease with which a product can be used 
+The usefulness of the product 
+The cost-effectiveness of the product relative to competing products
+A. I, II, and III
+B. II and III only
+C. I and II only
+D. II only
+
+366. Baselines and access control systems are used for what purpose?
+A. To maintain different versions of the system
+B. To keep management informed of the progress on various components of the product
+C. To help integration testing be performed smoothly and quickly
+D. To keep programmers from changing the same module(s) simultaneously
+
+367. Measures of reliability of a software product include which of the following? 
+Mean time between failures 
+Mean number of faults per thousand lines of code 
+Mean time to repair
+A. II and III only
+B. I, II, and III
+C. I only
+D. I and III only
+
+368. Software engineering has which of the following objectives? 
+Setting realistic expectations about the software development process 
+Manipulating trade-offs in functionality, schedule, and budget 
+Selecting hardware platforms for the software
+A. I only
+B. III only
+C. I and II only
+D. I, II, and III
+
+369. A common use of rapid prototyping is to help the client and the developer agree on which of the following aspects of the final product?
+A. Scope
+B. Robustness
+C. Performance constraints
+D. The user interface
+
+370. Which of the following desirable characteristics does the incremental model have? 
+The client does not have to wait for the complete product to get a return on investment. 
+The model has an open modular architecture, which is relatively easy to maintain. 
+New functionality is introduced gradually at the customer site.
+A. I and II only
+B. I, II, and III
+C. II and III only
+D. III only
+
+371. Which of the following is true of a specification document for a software project?
+A. It is a contract between the client and the developer.
+B. It specifies the budget, milestones, and deliverables.
+C. It is developed at the same time as the requirements document.
+D. It is primarily developed by the developer's SQA group.
+
+372. Which of the following is true of Class Modeling in OOA?
+A. It is purely action oriented.
+B. It is both action and data oriented.
+C. It is purely data oriented.
+D. It is neither action nor data oriented
+
+373. Which of the following are advantages of bottom-up integration? 
+It highlights design and coding faults early on. 
+It helps isolate faults to the upper modules. 
+It results in thorough testing of the operations models.
+A. III only
+B. I, II, and III
+C. II and III only
+D. I and II only
+
+374. Which of the following is (are) true about the technique known as all-definition-use path coverage? 
+All paths between the definition of a variable and its use are tested. 
+In practice, the number of paths is as large as the number of paths in simple path coverage.
+A. II only
+B. I and II
+C. none
+D. I only
+
+375. Deliberate reuse is better than any other kind of reuse because components are likely to be which of the following? 
+Better documented 
+Better tested 
+Easier to maintain
+A. I, II, and III
+B. I only
+C. II and III only
+D. I and II only
+
+376. In nonexecution-based testing of software, the inspections team includes which of the following roles? 
+The moderator 
+The client representative 
+The recorder
+A. I and III only
+B. I and II only
+C. I, II, and III
+D. II and III only
+
+377. The primary use of complexity metrics is to determine which modules
+A. have more faults
+B. to recode in order to decrease complexity
+C. should be tested by the SQA group
+D. need attention
+
+378. Which of the following ranks three structural testing techniques from weakest to strongest?
+A. Branch coverage, path coverage, statement coverage
+B. Statement coverage, branch coverage, path coverage
+C. Path coverage, branch coverage, statement coverage
+D. Branch coverage, statement coverage, pathcoverage
+
+379. Programming-in-the-many refers to which of the following?
+A. Simultaneous implementation of multiple modules that are part of the same product
+B. Collaborative software development across multiple organizations
+C. Simultaneous implementation of multiple modules that are part of a different product
+D. Software production by a team, either at the module level or at the code level
+
+380. Product testing for contract software should include which of the following? 
+Stress and volume testing 
+Testing against specific constraints and requirements 
+Documentation testing
+A. I and II only
+B. I, II, and III
+C. I only
+D. II only
+
+381. In nonexecution-based testing of software, code inspection is a formal process that consists of
+A. three steps: preparation, inspection, rework
+B. a flexible number of steps, depending on the quality of the document
+C. four steps: preparation, inspection, rework, follow-up
+D. five steps: overview, preparation, inspection, rework, follow-up
+
+382. Which of the following are advantages of sandwich integration? 
+Fault isolation is present at all times. 
+Design faults in the logic modules are identified early on. 
+Operations modules are fully debugged.
+A. I only
+B. II and III only
+C. I and II only
+D. I, II, and III
+
+383. Which of the following is true about defensive programming?
+A. The called module checks input to ensure that it has been called with inappropriate input.
+B. Assertions are placed in the called module.
+C. The calling module checks input to the called module to ensure that the input is appropriate.
+D. Both calling and called modules check for the appropriateness of an input to the called module.
+
+384. A configuration-control tool is used to
+A. to keep track of different variations of component modules in a software product
+B. specify which versions and which variations of each component are required for a complete product
+C. maintain the documentation that specifies which variations and versions go into a complete product
+D. keep track of different versions of component modules in a software product
+
+385. Impediments to structural testing in even a moderate size program include which of the following? 
+It is not possible to test each path 
+It is not possible to test each choice point with the data that will show a fault
+A. II only
+B. I and II
+C. none
+D. I only
+
+386. User interface integration usually refers to an environment that
+A. provides tools having the same visual appearance and functional interface
+B. supports a specific software process through a uniform user interface
+C. supports recording of discussions between users of a product
+D. permits several users to communicate with each other rapidly
+
+387. Which of the following are advantages of top-down integration testing of software? 
+It helps isolate faults to lower modules as they are added. 
+It helps debug lower-level modules faster. 
+It helps identify design faults earlier in the process.
+A. III only
+B. I, II, and III
+C. I and III only
+D. I and II only
+
+388. The ideal order for module testing and integration testing is given by which of the following?
+A. The ideal order depends on the software product.
+B. Module testing should be completed before integration testing.
+C. Integration testing should be completed before module testing.
+D. They should be done together.
+
+389. Which of the following belong in the specification document for a software project? 
+Expected input and corresponding output of the system 
+Explicit constraints the system must satisfy 
+Explicit milestones and a general description of deliverables for the system
+A. III only
+B. I, II, and III
+C. I only
+D. I and II only
+
+390. In software development, product testing includes performance testing, _____, _____, and documentation testing.
+A. acceptance testing, installation testing
+B. robustness testing, integration testing
+C. robustness testing, installation testing
+D. acceptance testing, integration testing
+
+391. In choosing a language for the final product, which of the following factors should be considered? 
+The client's experience with, and tools for, the language 
+The language's suitability for the application 
+The costs, benefits, and risks of using the language
+A. I only
+B. III only
+C. I, II, and III
+D. I and II only
+
+392. Of the following, which best characterizes the role of hardware considerations in the development of high-quality software for a typical project?
+A. It does not contribute at all.
+B. It is essential.
+C. It contributes relatively little.
+D. It should be the starting point for all other considerations.
+
+393. The input-output specifications should cover which of the following kinds of input? 
+Complete and correct input 
+Error-ridden input 
+Incomplete input
+A. I only
+B. I and III only
+C. I, II, and III
+D. I and II only
+
+394. The _____ define which input a software product must accept and what the corresponding output must be.
+A. control flow diagrams
+B. data flow diagrams
+C. acceptance criteria
+D. input-output specifications
+

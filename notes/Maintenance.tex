@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\def\Name{Ran Liao}
+\def\Topic{Maintenance}
+
+\title{\textbf{\Topic}}
+\author{\Name}
+\markboth{Notes on \Topic\ }{Notes on \Topic\ }
+\date{\today}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\date{\today} }
+\lhead{Notes on \Topic\ }
+\rfoot{\thepage}
+
+\textheight=9in
+%\textwidth=6.5in
+\topmargin=-.75in
+%\oddsidemargin=0in
+%\evensidemargin=0in
+ 
+\begin{document}
+\maketitle
+\noindent\makebox[\linewidth]{\rule[8pt]{5in}{0.5pt}}
+
+\section*{Terminology}
+
+\begin{enumerate}
+
+	\item \textbf{Maintenance}
+	
+	Maintenance is the process that occurs when a software artifact is modified because of a problem or because of a need for improvement or adaptation.
+	It occurs whenever software is modified regardless of whether this takes place before or after installation of the software product.
+	
+	\item \textbf{Postdelivery Maintenance}
+	
+	Any change to any component of the product (including documentation) after it has passed the acceptance test.
+
+\end{enumerate}
+
+ 
+\section*{Catagory}
+ 
+\begin{enumerate}
+
+	\item \textbf{Corrective maintenance}
+	
+	To correct residual faults. 
+	
+	e.g. analysis, design, implementation, documentation, or any other type of faults.
+	
+	\item \textbf{Perfective maintenance}
+	
+	Client requests changes to improve product effectiveness.
+
+	e.g. add additional functionality, make product run faster, improve maintainability.
+	
+	\item \textbf{Adaptive maintenance}
+	
+	Responses to changes in the environment in which the product operates.
+	
+	e.g. the product is ported to a new compiler, operating system, and/or hardware.
+
+\end{enumerate}
+
+\section*{Obstacles for Maintenance of Object-Oriented Software}
+
+Inheritance and polymorphism can have a positive effect on development, but a negative effect on maintenance.
+
+\begin{enumerate}
+
+	\item \textbf{The complete inheritance hierarchy can be large}
+	
+	The inheritance tree may be spread over the entire product.
+	
+	\item \textbf{The consequences of polymorphism and dynamic binding}
+	
+	It takes extra efforts to determine which version of a polymorphic function is actual the buggy one.
+		
+	\item \textbf{The consequences of inheritance}
+	
+	Modify a superclass will affect all descendent subclasses.
+	
+	i.e. ``Fragile base class problem"
+	
+\end{enumerate}
+\end{document}
