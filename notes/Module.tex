@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\def\Name{Ran Liao}
+\def\Topic{Module}
+
+\title{\textbf{\Topic}}
+\author{\Name}
+\markboth{Notes on \Topic\ }{Notes on \Topic\ }
+\date{\today}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\date{\today} }
+\lhead{Notes on \Topic\ }
+\rfoot{\thepage}
+
+\textheight=9in
+%\textwidth=6.5in
+\topmargin=-.75in
+%\oddsidemargin=0in
+%\evensidemargin=0in
+ 
+\begin{document}
+\maketitle
+\noindent\makebox[\linewidth]{\rule[8pt]{5in}{0.5pt}}
+
+\section*{Definition}
+
+A lexically contiguous sequence of program statements, bounded by boundary elements, with an aggregate identifier.
+
+\section*{Cohesion - the higher the better.}
+
+Cohesion represents the degree of interaction within a module. 
+
+\begin{enumerate}
+	\item \textbf{Coincidental Cohesion}
+	
+	A module has coincidental cohesion if it performs multiple, completely unrelated actions.
+	
+	\item \textbf{Logical Cohesion}
+	
+	A module has logical cohesion when it performs a series of related actions, one of which is selected by the calling module.
+	
+	\item \textbf{Temporal Cohesion}
+	
+	A module has temporal cohesion when it performs a series of actions related in time.
+	
+	\item \textbf{Procedural Cohesion}
+	
+	A module has procedural cohesion if it performs a series of actions related by the procedure to be followed by the product.
+
+	\item \textbf{Communicational Cohesion}
+	
+	A module has communicational cohesion if it performs a series of actions related by the procedure to be followed by the product, but in addition all the actions operate on the same data.
+	
+	\item \textbf{Functional Cohesion}
+	
+	A module with functional cohesion performs exactly one action.
+	
+	\item \textbf{Informational Cohesion}
+	
+	A module has informational cohesion if it performs a number of actions, each with its own entry point, with independent code for each action, all performed on the same data structure.
+	
+\end{enumerate}
+
+\section*{Coupling - the lower the better}
+
+Coupling represents the degree of interaction between two modules.
+
+\begin{enumerate}
+	\item \textbf{Content Coupling}
+	
+	Two modules are content coupled if one directly references contents of the other.
+
+	\item \textbf{Common Coupling}
+	
+	Two modules are common coupled if they have write access to global data.
+	
+	\item \textbf{Control Coupling}
+	
+	Two modules are control coupled if one passes an element of control to the other.
+	
+	\item \textbf{Stamp Coupling}
+	
+	Two modules are stamp coupled if a data structure is passed as a parameter, but the called module operates on some but not all of the individual components of the data structure.
+
+	\item \textbf{Data Coupling}
+	
+	Two modules are data coupled if all parameters are homogeneous data items (simple parameters, or data structures all of whose elements are used by called module).
+	
+\end{enumerate}
+
+
+\end{document}
