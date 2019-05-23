@@ -1,0 +1,131 @@
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\def\Name{Ran Liao}
+\def\Topic{Testing}
+
+\title{\textbf{\Topic}}
+\author{\Name}
+\markboth{Notes on \Topic\ }{Notes on \Topic\ }
+\date{\today}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\date{\today} }
+\lhead{Notes on \Topic\ }
+\rfoot{\thepage}
+
+\textheight=9in
+%\textwidth=6.5in
+\topmargin=-.75in
+%\oddsidemargin=0in
+%\evensidemargin=0in
+ 
+\begin{document}
+\maketitle
+\noindent\makebox[\linewidth]{\rule[8pt]{5in}{0.5pt}}
+
+\section*{Categorized by Timing}
+
+\begin{itemize}
+	\item \textbf{Unit testing}
+	
+	Each component is tested as soon as it has been implemented.
+	
+	\item \textbf{Integration testing}
+	
+	At the end of each iteration, the completed components are combined and tested.
+	
+	\item \textbf{Product testing}
+	
+	When the product appears to be complete, it is tested as a whole.
+	
+	\item \textbf{Acceptance testing}
+	
+	Once the completed product has been installed on the client’s computer, the client tests it.
+\end{itemize}
+
+\section*{Categorized by Methdology}
+
+\begin{itemize}
+	\item \textbf{Non-execution-based testing}	
+	
+	Code Walkthroughs and Inspections.
+
+	\item \textbf{Execution-based testing}
+	
+	\begin{itemize}
+	
+	\item \textbf{Test to Specifications / Black-box / Data-driven}
+	
+	Ignore the code and use the specifications to select test cases.
+	
+	The combinatorial explosion makes testing to specifications impossible.
+	
+	\item \textbf{Test to Code / Glass-box / Logic-driven}
+	
+	Ignore the specifications and use the code to select test cases.
+	
+	The combinatorial explosion makes testing to specifications impossible. And it is not reliable, we can exercise every path without detecting every fault.
+	
+	\end{itemize}
+	
+\end{itemize}
+
+\section*{Equivalence Testing}
+
+Any one member of an equivalence class is as good a test case as any other member of the equivalence class. And in addition to input specifications,  we also need to perform equivalence testing of the output specifications.
+
+
+\section*{Boundary Value Analysis}
+
+Select test cases on or just to one side of the boundary of equivalence classes. This can greatly increases the probability of detecting a fault.
+
+\section*{Combined Apporach}
+
+Equivalence classes together with boundary value analysis to test both input specifications and output specifications. This approach generates a small set of test data with the potential of uncovering a large number of faults.
+
+\section*{Glass-Box Unit-Testing}
+
+\begin{itemize}
+
+	\item \textbf{Statement Coverage}
+	
+	Running a series of test cases during which every statement is executed at least once.
+	
+	\item \textbf{Branch Coverage}
+	
+	Running a series of tests to ensure that all branches are tested at least once.
+	
+	\item \textbf{Condition Coverage}
+	
+	Condition coverage is also known as \textbf{Predicate Coverage} in which each one of the Boolean expression have been evaluated to both TRUE and FALSE.
+	
+	\item \textbf{Branch-condition Coverage}
+	
+	Every point of entry and exit in the program has been invoked at least once, every condition in a decision in the program has taken all possible outcomes at least once, and every decision in the program has taken all possible outcomes at least once.
+	
+	\item \textbf{Path Coverage}
+	
+	Testing all paths.
+	
+	\item \textbf{Linear Code Sequences}
+	
+	Identify the set of points L from which control flow may jump, plus entry and exit points. Restrict test cases to paths that begin and end with elements of L. This uncovers many faults without testing every path.
+	
+	\item \textbf{All-Definition-Use-Path Coverage}
+	
+	Identify all paths from the definition of a variable to the use of that definition. And a test case is set up for each such path.
+	
+	\item \textbf{Infeasible Code}
+	
+	We may have an infeasible path (``dead code") in the artifact. Frequently this is evidence of a fault.
+
+\end{itemize}
+
+
+
+\end{document}
