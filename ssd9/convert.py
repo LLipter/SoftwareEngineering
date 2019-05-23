@@ -31,3 +31,5 @@ with open('ku_ssd9.txt', 'w') as file_question:
             file_solution.write(question['identifier'] + '. ')
             file_solution.write(question['answer'].upper())
             file_solution.write('\n')
+            if(int(question['identifier']) % 5 == 0):
+                file_solution.write('\n')
